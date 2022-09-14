@@ -1,0 +1,96 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    height: 80vh;
+    background-image: url(../images/bg-section-top-desktop-2.svg), url(../images/bg-section-top-desktop-1.svg), url(../images/bg-section-bottom-desktop-1.svg), url(../images/bg-section-bottom-desktop-2.svg);
+    background-position: right top, left top, left bottom, right bottom;
+    background-size: contain, cover, cover, cover;
+    background-repeat: no-repeat, no-repeat, repeat,;
+    min-width: 100%;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 3rem;
+}
+
+.logo
+{
+    width: 10%;
+}
+
+.try-free
+{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px;
+    border-radius: 20px ;
+}
+
+.header-body
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.text
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+    align-items: center;
+    gap: 2rem;
+}
+
+.text button
+{
+    width: 30%;
+    position: absolute;
+    left: 25%;
+    top: 120%;
+}
+
+.text h1
+{
+    text-align: start;
+    width: 50%;
+    font-size: 40px;
+    margin: auto;
+}
+.text p 
+{
+    width: 50%;
+    margin: auto;
+    text-align: start;
+}
+
+.img
+{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.screens
+{
+    width: 80%;
+}
